@@ -3,6 +3,8 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$primary: #000000;
+$secondary: #FFF488;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -19,12 +21,46 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.Forside{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero {
+  background: black;
+  color: #ffe95c;
+  padding: 6rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.success img {
+  width: 50%;
+  border-radius: 4px;
+  height: 80%;
+}
+
 footer {
-  background-color: #343a40;
+  background-color: #000000;
   color: #fff;
   padding: 3rem 0;
 }
 
 .social-icons a {
   font-size: 1.25rem;
+}
+
+.black-bar {
+  width: 100%;
+  height: 80px; /* justér højden */
+  background-color: #000;
 }
