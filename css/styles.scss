@@ -21,23 +21,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+
 .Forside{
   width: 100%;
   height: auto;
   display: block;
 }
-
-.ForsideOmos{
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.Forsidetilmelding{
-  width: 100%;
-  height: auto;
-  display: block;  
-  }
 
 .hero {
   background: black;
@@ -88,9 +77,43 @@ body {
  }
 
 .section-title {
-  color: #FFF27A;        /* gul som i dit design */
-  text-align: left;      /* eller center hvis du vil */
+  color: #FFF27A;
+  text-align: left;
   font-weight: 700;
   font-size: 2.5rem;
   margin: 0;
 }
+
+.pærebillede{
+  height: 50%;
+  width: 60%;
+  z-index: 800;
+  position: absolute;
+
+}
+
+.tvbillede{
+    display: block;
+    margin: 0 auto;
+}
+
+/*Om os*/
+.ForsideOmos{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+/*Tilmelding*/
+.Forsidetilmelding{
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+
+
+
+
