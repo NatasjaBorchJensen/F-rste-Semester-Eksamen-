@@ -97,6 +97,24 @@ body {
     margin: 0 auto;
 }
 
+.person-card {
+  background-color: #fff38a;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.person-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.person-card p {
+  font-weight: bold;
+  margin: 0;
+}
+
+
 /*Om os*/
 .ForsideOmos{
   width: 100%;
